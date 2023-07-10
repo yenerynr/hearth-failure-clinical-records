@@ -7,3 +7,6 @@ Most cardiovascular diseases can be prevented by addressing behavioural risk fac
 People with cardiovascular disease or who are at high cardiovascular risk (due to the presence of one or more risk factors such as hypertension, diabetes, hyperlipidaemia or already established disease) need early detection and management wherein a machine learning model can be of great help.
 
 https://www.kaggle.com/datasets/andrewmvd/heart-failure-clinical-data
+
+STREAMLIT APP
+https://yenerynr-hearth-failure-clinical-records-rg-anly-app-ann-w5c6l2.streamlit.app/
