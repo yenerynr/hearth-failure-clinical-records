@@ -12,10 +12,10 @@ from keras.utils import pad_sequences
     ##    cd C:\Users\yener\OneDrive\Desktop\heart_failure_clinical_records_dataset
 
 ##loading the ann model
-model = keras.models.load_model(r'C:\Users\yener\OneDrive\Desktop\heart_failure_clinical_records_dataset\ann_model')
+model = keras.models.load_model("ann_model")
 
 ## load the copy of the dataset
-df = pd.read_csv(r'C:\Users\yener\OneDrive\Desktop\heart_failure_clinical_records_dataset\heart_failure_clinical_records_dataset.csv')
+df = pd.read_csv("heart_failure_clinical_records_dataset.csv")
 
 ## set page configuration
 st.set_page_config(page_title = 'Heart Failure Decease Prediction')
@@ -25,7 +25,7 @@ st.title('Heart Failure Decease Prediction ')
 st.write('Please Enter Set of Information Requested Below:')
 
 ## add image
-image = Image.open(r"C:\Users\yener\OneDrive\Desktop\heart_failure_clinical_records_dataset\1_6nE1MADqsFutGS-MZeYXig.jpeg")
+image = Image.open("1_6nE1MADqsFutGS-MZeYXig.jpeg")
 st.image(image, use_column_width = True)
 
 #user input 
